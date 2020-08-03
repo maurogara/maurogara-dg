@@ -10,14 +10,14 @@ export class GaleriaComponent implements OnInit {
   constructor() { }
 
   mostrarActual= 'editorial'
-  //mostrarTodo = false;
+  mostarTodo = true;
 
-  /*
-  listaTotal () {
+  
+  mostarLista () {
 
-    this.listaTotal = !this.listaTotal;
+    this.mostarTodo = !this.mostarTodo;
   }
-  */
+  
 
   mostrarItem (categoria: string) {
     console.log(categoria);

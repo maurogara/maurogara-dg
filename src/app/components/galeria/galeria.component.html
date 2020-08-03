@@ -1,9 +1,9 @@
-<a href="#1" (click)="mostrarItem('todo')">Mostrar marca</a>
+<a href="#1" (click)="mostarLista()">Mostrar marca</a>
 <a href="#2" (click)="mostrarItem('editorial')">Mostrar editorial</a>
 <a href="#3" (click)="mostrarItem('marca')">Mostrar marca</a>
 <a href="#4" (click)="mostrarItem('etiquetas')">Mostrar etiquetas</a>
 
-<ul>
+<ul *ngIf="mostarTodo">
     <li *ngIf="mostrarActual === 'marca'">MARCA1</li>
     <li *ngIf="mostrarActual === 'marca'">MARCA2</li>
     <li *ngIf="mostrarActual === 'marca'">MARCA3</li>
