@@ -8,6 +8,7 @@ import { QuienComponent } from './pages/quien/quien.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { QueComponent } from './pages/que/que.component';
+import { PortComponent } from './pages/port/port.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QueComponent } from './pages/que/que.component';
     QuienComponent,
     NavComponent,
     FooterComponent,
-    QueComponent
+    QueComponent,
+    PortComponent
   ],
   imports: [
     BrowserModule,
