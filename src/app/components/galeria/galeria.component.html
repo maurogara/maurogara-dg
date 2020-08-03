@@ -1,0 +1,18 @@
+<a href="#1" (click)="listaTotal()">Mostrar Todo</a>
+<a href="#2" (click)="mostrarItem('editorial')">Mostrar editorial</a>
+<a href="#3" (click)="mostrarItem('marca')">Mostrar marca</a>
+<a href="#4" (click)="mostrarItem('etiquetas')">Mostrar etiquetas</a>
+
+<ul *nfIf="mostarTodo">
+    <li *ngIf="mostrarActual === 'marca'">MARCA1</li>
+    <li *ngIf="mostrarActual === 'marca'">MARCA2</li>
+    <li *ngIf="mostrarActual === 'marca'">MARCA3</li>
+    <li *ngIf="mostrarActual === 'editorial'">EDITORIAL1</li>
+    <li *ngIf="mostrarActual === 'editorial'">EDITORIAL2</li>
+    <li *ngIf="mostrarActual === 'editorial'">EDITORIAL3</li>
+    <li *ngIf="mostrarActual === 'editorial'">EDITORIAL4</li>
+    <li *ngIf="mostrarActual === 'etiquetas'">ETIQUETAS1</li>
+    <li *ngIf="mostrarActual === 'etiquetas'">ETIQUETAS2</li>
+    <li *ngIf="mostrarActual === 'etiquetas'">ETIQUETAS1</li>
+    <li *ngIf="mostrarActual === 'etiquetas'">ETIQUETAS1</li>
+</ul>

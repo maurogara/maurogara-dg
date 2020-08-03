@@ -9,6 +9,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { QueComponent } from './pages/que/que.component';
 import { PortComponent } from './pages/port/port.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PortComponent } from './pages/port/port.component';
     NavComponent,
     FooterComponent,
     QueComponent,
-    PortComponent
+    PortComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
