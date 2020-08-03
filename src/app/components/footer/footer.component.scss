@@ -1,0 +1,23 @@
+.pie {
+    margin: 45px 0px 0px 100px;
+    display: grid;
+    grid-template-columns: 550px 550px auto;    
+}
+
+.pie-yo p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.pie-yo img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.pie-yo p {
+    color: var(--gris);
+    width: 250px;
+}
