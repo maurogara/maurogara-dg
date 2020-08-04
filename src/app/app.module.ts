@@ -20,7 +20,7 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     FooterComponent,
     QueComponent,
     PortComponent,
-    GaleriaComponent
+    GaleriaComponent,
   ],
   imports: [
     BrowserModule,

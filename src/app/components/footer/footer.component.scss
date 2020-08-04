@@ -1,7 +1,7 @@
 .pie {
-    margin: 45px 0px 0px 100px;
+    margin: 45px 150px 45px 150px;
     display: grid;
-    grid-template-columns: 550px 550px auto;    
+    grid-template-columns: 550px auto;    
 }
 
 .pie-yo p {
@@ -20,4 +20,8 @@
 .pie-yo p {
     color: var(--gris);
     width: 250px;
+}
+
+.pie-twitter {
+    justify-self: end;
 }
