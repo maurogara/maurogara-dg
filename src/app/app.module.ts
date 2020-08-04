@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { QueComponent } from './pages/que/que.component';
 import { PortComponent } from './pages/port/port.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     QueComponent,
     PortComponent,
     GaleriaComponent,
+    ProyectoComponent,
   ],
   imports: [
     BrowserModule,

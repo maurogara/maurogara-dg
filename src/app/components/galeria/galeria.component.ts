@@ -9,7 +9,7 @@ export class GaleriaComponent implements OnInit {
 
   constructor() { }
 
-  mostrarActual= 'editorial'
+  mostrarActual= 'todo'
   mostarTodo = true;
 
   

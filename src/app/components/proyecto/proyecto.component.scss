@@ -1,0 +1,19 @@
+.proyecto {
+    border-radius: 5px;
+    background-color: var(--gris);
+    border: 1px solid var(--hover2);
+    font-family: Poppins;
+    &-img {
+        max-width: 100%;
+    }
+    &-info-pro {
+        padding-left: 20px;
+    }
+}
+
+h5 {
+    font-family: Raleway;
+    text-transform: uppercase;
+    color: var(--fondo);
+    font-size: 25px;
+}
