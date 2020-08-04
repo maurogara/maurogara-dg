@@ -1,5 +1,5 @@
 .port {        
-    width: 100%;
+    max-width: 100%;
     margin: 0px auto;
     background-color: var(--blanco);
 }
@@ -9,6 +9,6 @@
     font-family: 'Raleway', sans-serif;
     color: var(--fondo);
     font-size: 14px;
-    width: 750px;  
+    width: 47rem;  
     line-height: 25px;
 }

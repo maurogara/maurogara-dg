@@ -32,10 +32,10 @@ export class GaleriaComponent implements OnInit {
   proyectoImg = "/assets/port/editorial01.jpg"
   proyectoDesc = "Guía de destinos Turísticos para Adventure World Arg"
 
-  proyectoImg2 = "/assets/port/editorial02.jpg"
+  proyectoImg2 = "/assets/port/editorial03.jpg"
   proyectoDesc2 = "Portadas periódico Ático. Salida Quincenal"
 
-  proyectoImg3 = "/assets/port/editorial03.jpg"
+  proyectoImg3 = "/assets/port/editorial04.jpg"
   proyectoDesc3 = "Interior periódico Ático. Salida Quincenal"
 
   // Etiquetas
@@ -60,13 +60,13 @@ export class GaleriaComponent implements OnInit {
   proyectoDesc9 = "Marca para programa de canal de YouTube."
 
   // Packs
-  proyectoImg10 = "/assets/port/pack01.jpg"
+  proyectoImg10 = "/assets/port/pack02.jpg"
   proyectoDesc10 = "Packaging para crema en base de cannabis. Green Relief"
 
-  proyectoImg11 = "/assets/port/pack02.jpg"
+  proyectoImg11 = "/assets/port/pack03.jpg"
   proyectoDesc11 = "Packaging para aceite de cannabis. Green Relief"
 
-  proyectoImg12 = "/assets/port/pack03.jpg"
+  proyectoImg12 = "/assets/port/pack04.jpg"
   proyectoDesc12 = "Diseño de bolsa plástica de Avena con maca"
 
 }

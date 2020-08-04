@@ -1,5 +1,5 @@
 .who {        
-    width: 100%;
+    max-width: 100%;
     margin: 0px auto;
     background-color: var(--blanco);
 }
@@ -8,8 +8,8 @@
     font-family: 'Raleway', sans-serif;
     color: var(--fondo);
     font-size: 14px;
-    width: 750px;
-    height: 500px;    
+    width: 47rem;
+    height: 31rem;    
     line-height: 45px;
 }
 
@@ -27,13 +27,13 @@
 
 .habilidades,
 .cv {
-    width: 500px;
-    height: 290px;
+    width: 31rem;
+    height: 18rem;
     margin: 55px;
 }
 
 .cv a {    
-    width: 200px;
+    width: 12.5rem;
     display: block;
     height: 75px;    
     line-height: 70px;

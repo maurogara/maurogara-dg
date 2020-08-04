@@ -1,5 +1,5 @@
 .what {
-    width: 100%;
+    max-width: 100%;
     margin: 0px auto;
     background-color: var(--color1);
     border-bottom: 4px solid var(--hover2);
@@ -14,8 +14,8 @@
     font-family: 'Raleway', sans-serif;
     color: var(--blanco);
     font-size: 14px;
-    width: 750px;
-    height: 500px;    
+    width: 47rem;
+    height: 34rem;    
     line-height: 45px;
 }
 
@@ -23,21 +23,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 45px auto;
-    max-width: 800px;    
+    max-width: 50rem;    
     column-gap: 10px;
     row-gap: 15px;    
 }
 
 .what-detalles h3 {
-    width: 480px;
+    width: 30rem;
     color: var(--hover1);    
 }
 
 .what-consultas {
     display: flex;    
     flex-direction: column;
-    width: 800px;
-    height: 310px;
+    width: 50rem;
+    height: 19rem;
     margin: 0 auto;
     border-top: 3px solid var(--blanco);
     border-bottom: 3px solid var(--blanco);
