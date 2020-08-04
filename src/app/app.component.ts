@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'maurogara';
+
+  proyectoImg = "/assets/port/editorial02.jpg"
 }
