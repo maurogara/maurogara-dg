@@ -1,12 +1,14 @@
-.proyecto {
-    border-radius: 5px;
-    background-color: var(--gris);
-    border: 1px solid var(--hover2);
-    font-family: Poppins;
+.pro {
+    background-color: var(--gris);    
+    box-shadow: 0 10px 6px -6px var(--color1);
+    margin: 20px; 
     &-img {
         max-width: 100%;
     }
-    &-info-pro {
-        padding-left: 20px;
+    &-desc {
+        color: var(--fondo);
+        font-family: 'Poppins';
+        font-size: 15px;
+        padding: 10px;
     }
 }

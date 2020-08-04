@@ -10,6 +10,7 @@ export class ProyectoComponent implements OnInit {
   constructor() { }
 
   @Input() img: string;
+  @Input() desc: string;
 
   ngOnInit(): void {
   }
