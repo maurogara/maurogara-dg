@@ -51,6 +51,26 @@
     color: var(--blanco);
 }
 
+span::before{
+    content: '';
+    animation: animate infinite 8s
+}
+
+@keyframes animate{
+    0% {
+        content: 'Diseñador';
+    }
+    33% {
+        content: 'Freelancer';
+    }
+    66% {
+        content: 'Docente';
+    }
+    100% {
+        content: 'Mauricio';
+    }
+}
+
 .cierres {
     width: 100%;
     height: 15px;
