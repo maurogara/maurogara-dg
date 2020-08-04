@@ -38,22 +38,22 @@ export class GaleriaComponent implements OnInit {
   proyectoDesc3 = "Interior periódico Ático. Salida Quincenal"
 
   proyectoImg4 = "/assets/port/etiquetas01.jpg"
-  proyectoDesc4 = "Etiqueta para envases para distribuidora de alimentos. Bayas de Goji"
+  proyectoDesc4 = "Etiqueta para envases para distribuidora de alimentos."
 
   proyectoImg5 = "/assets/port/etiquetas02.jpg"
-  proyectoDesc5 = "Etiqueta para envases para distribuidora de alimentos. Azucar de mascabo"
+  proyectoDesc5 = "Etiqueta para envases para distribuidora de alimentos."
 
   proyectoImg6 = "/assets/port/etiquetas03.jpg"
-  proyectoDesc6 = "Etiqueta para envases para distribuidora de alimentos. Moringa en hojas"
+  proyectoDesc6 = "Etiqueta para envases para distribuidora de alimentos."
 
   proyectoImg7 = "/assets/port/marca02.jpg"
-  proyectoDesc7 = "Diseño de marca e identidad para estudio de Arquitectura. INDIGO.S.A."
+  proyectoDesc7 = "Diseño de marca e identidad estudio de Arquitectura INDIGO"
 
   proyectoImg8 = "/assets/port/marca01.jpg"
-  proyectoDesc8 = "Marca para programa de canal de YouTube. NihonVlog"
+  proyectoDesc8 = "Marca para programa de canal de YouTube."
 
-  proyectoImg9 = "/assets/port/marca02.jpg"
-  proyectoDesc9 = "Marca para programa de canal de YouTube. La Japonidad al Palo"
+  proyectoImg9 = "/assets/port/marca04.jpg"
+  proyectoDesc9 = "Marca para programa de canal de YouTube."
 
   proyectoImg10 = "/assets/port/pack01.jpg"
   proyectoDesc10 = "Packaging para crema en base de cannabis. Green Relief"
