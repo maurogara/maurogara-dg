@@ -1,71 +1,61 @@
-<a href="#1" (click)="mostrarItem('todo')">Mostrar todos</a>
-<a href="#2" (click)="mostrarItem('editorial')">Mostrar editorial</a>
-<a href="#3" (click)="mostrarItem('marca')">Mostrar marca</a>
-<a href="#4" (click)="mostrarItem('etiquetas')">Mostrar etiquetas</a>
+<div class="filtro">
+    <a href="#1" (click)="mostrarItem('todo')" class="fitro-boton">Todos</a>
+    <a href="#2" (click)="mostrarItem('editorial')" class="fitro-boton">Editorial</a>
+    <a href="#3" (click)="mostrarItem('marca')" class="fitro-boton">Marca</a>
+    <a href="#4" (click)="mostrarItem('etiquetas')" class="fitro-boton">Etiquetas</a>
+    <a href="#5" (click)="mostrarItem('pack')" class="fitro-boton">Packaging</a>
+</div>
 
-<ul *ngIf="mostarTodo">
-    <li *ngIf="mostrarActual === 'marca' || mostrarActual === 'todo'">MARCA1</li>
-    <li *ngIf="mostrarActual === 'marca' || mostrarActual === 'todo'">MARCA2</li>
-    <li *ngIf="mostrarActual === 'marca' || mostrarActual === 'todo'">MARCA3</li>
-    <li *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'">EDITORIAL1</li>
-    <li *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'">EDITORIAL2</li>
-    <li *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'">EDITORIAL3</li>
-    <li *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'">EDITORIAL4</li>
-    <li *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'">ETIQUETAS1</li>
-    <li *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'">ETIQUETAS2</li>
-    <li *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'">ETIQUETAS1</li>
-    <li *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'">ETIQUETAS1</li>
-</ul>
-<article class="galeria-wrapper">
+<article *ngIf="mostarTodo" class="galeria-wrapper">
     <!-- Editorial -->
-    <app-proyecto class="galeria-cont"
+    <app-proyecto *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'"
         [img]="proyectoImg"
         [desc]="proyectoDesc" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'"
         [img]="proyectoImg2"
         [desc]="proyectoDesc2" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'editorial' || mostrarActual === 'todo'"
         [img]="proyectoImg3"
         [desc]="proyectoDesc3" 
     ></app-proyecto>
     <!-- Etiquetas -->
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'"
         [img]="proyectoImg4"
         [desc]="proyectoDesc4" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'"
     [img]="proyectoImg5"
     [desc]="proyectoDesc5" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'etiquetas' || mostrarActual === 'todo'"
     [img]="proyectoImg6"
     [desc]="proyectoDesc6" 
     ></app-proyecto>
     <!-- Marca -->
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'marca' || mostrarActual === 'todo'"
     [img]="proyectoImg7"
     [desc]="proyectoDesc7" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'marca' || mostrarActual === 'todo'"
     [img]="proyectoImg8"
     [desc]="proyectoDesc8" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'marca' || mostrarActual === 'todo'"
     [img]="proyectoImg9"
     [desc]="proyectoDesc9" 
     ></app-proyecto>
     <!-- Pack -->
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'pack' || mostrarActual === 'todo'"
     [img]="proyectoImg10"
     [desc]="proyectoDesc10" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'pack' || mostrarActual === 'todo'"
     [img]="proyectoImg11"
     [desc]="proyectoDesc11" 
     ></app-proyecto>
-    <app-proyecto
+    <app-proyecto *ngIf="mostrarActual === 'pack' || mostrarActual === 'todo'"
     [img]="proyectoImg12"
     [desc]="proyectoDesc12" 
     ></app-proyecto>    

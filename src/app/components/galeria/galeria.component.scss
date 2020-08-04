@@ -1,8 +1,40 @@
 .galeria-wrapper {
+    max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     margin: 0 auto;
-    padding: 50px 150px ;
+    padding: 50px 150px;
+}
+
+.filtro {
+    margin: 0 auto;
+    padding: 25px 350px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.filtro a {
+    color: var(color--1);
+    display: block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    height: 75px;    
+    line-height: 70px;
+    text-decoration: none;
+    border: 2px solid var(--gris);
+    color: var(--fondo);    
+    transition: all 0.5s ease;     
+}
+
+.filtro a:hover {
+    background-color: var(--color1);
+    color: var(--blanco);
 }

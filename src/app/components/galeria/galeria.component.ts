@@ -28,6 +28,7 @@ export class GaleriaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // Editorial
   proyectoImg = "/assets/port/editorial01.jpg"
   proyectoDesc = "Guía de destinos Turísticos para Adventure World Arg"
 
@@ -37,6 +38,7 @@ export class GaleriaComponent implements OnInit {
   proyectoImg3 = "/assets/port/editorial03.jpg"
   proyectoDesc3 = "Interior periódico Ático. Salida Quincenal"
 
+  // Etiquetas
   proyectoImg4 = "/assets/port/etiquetas01.jpg"
   proyectoDesc4 = "Etiqueta para envases para distribuidora de alimentos."
 
@@ -46,6 +48,8 @@ export class GaleriaComponent implements OnInit {
   proyectoImg6 = "/assets/port/etiquetas03.jpg"
   proyectoDesc6 = "Etiqueta para envases para distribuidora de alimentos."
 
+
+  // Marca
   proyectoImg7 = "/assets/port/marca02.jpg"
   proyectoDesc7 = "Diseño de marca e identidad estudio de Arquitectura INDIGO"
 
@@ -55,6 +59,7 @@ export class GaleriaComponent implements OnInit {
   proyectoImg9 = "/assets/port/marca04.jpg"
   proyectoDesc9 = "Marca para programa de canal de YouTube."
 
+  // Packs
   proyectoImg10 = "/assets/port/pack01.jpg"
   proyectoDesc10 = "Packaging para crema en base de cannabis. Green Relief"
 
